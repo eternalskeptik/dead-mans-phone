@@ -1,6 +1,6 @@
 const PhoneContainer = ({ children }) => {
   return (
-    <div className="w-[375px] h-[812px] bg-black rounded-[3rem] overflow-hidden shadow-2xl relative">
+    <div className="w-full h-[100dvh] border-0 rounded-none bg-black overflow-hidden shadow-2xl relative md:w-[375px] md:h-[812px] md:max-h-[95vh] md:border-8 md:border-black md:rounded-[3rem]">
       {/* Notch */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[150px] h-[30px] bg-black rounded-b-[20px] z-50" />
       

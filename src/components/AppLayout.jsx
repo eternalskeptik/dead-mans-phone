@@ -6,7 +6,10 @@ const AppLayout = ({ title, children }) => {
 
   return (
     <div className="w-full h-full bg-black text-white flex flex-col app-transition">
-      <header className="flex items-center gap-3 p-4 border-b border-white/10">
+      <header
+        className="flex items-center gap-3 px-4 pb-4 min-h-[4rem] border-b border-white/10"
+        style={{ paddingTop: 'max(env(safe-area-inset-top, 0px), 3rem)' }}
+      >
         <button
           onClick={() => setCurrentApp(null)}
           className="p-2 rounded-full hover:bg-white/10 transition-colors active:scale-95"
