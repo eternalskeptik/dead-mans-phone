@@ -8,14 +8,57 @@
   "apps": {
     "messages": [
       {
+        "contact": "ServiceMsg",
+        "lastActive": "2 mins ago",
+        "avatar": "",
+        "history": [
+          { "sender": "ServiceMsg", "text": "Uber: Your driver Jesus is arriving in a Grey Toyota Camry.", "time": "2 mins ago" }
+        ]
+      },
+      {
         "contact": "Mom",
         "lastActive": "10 mins ago",
         "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100",
         "history": [
           { "sender": "Mom", "text": "Are you coming for Thanksgiving?", "time": "Yesterday 18:30" },
           { "sender": "me", "text": "Can't. Work is crazy.", "time": "Yesterday 18:32" },
-          { "sender": "Mom", "text": "Your father says he saw you on the news?", "time": "08:15" },
+          { "sender": "Mom", "text": "Your father says he saw you on the news? Something about Gold?", "time": "08:15" },
           { "sender": "Mom", "text": "Alex, pick up.", "time": "09:45" }
+        ]
+      },
+      {
+        "contact": "Dominos",
+        "lastActive": "15 mins ago",
+        "avatar": "",
+        "history": [
+          { "sender": "Dominos", "text": "Your order #8821 is out for delivery!", "time": "11:30" },
+          { "sender": "Dominos", "text": "Driver is nearby. Enjoy your pizza!", "time": "11:45" }
+        ]
+      },
+      {
+        "contact": "USPS Tracking",
+        "lastActive": "20 mins ago",
+        "avatar": "",
+        "history": [
+          { "sender": "USPS", "text": "Your package 1Z9922 is delayed due to weather.", "time": "11:00" }
+        ]
+      },
+      {
+        "contact": "Vote 2024",
+        "lastActive": "25 mins ago",
+        "avatar": "",
+        "history": [
+          { "sender": "Campaign", "text": "Alex, can we count on your support? Reply STOP to opt out.", "time": "10:55" }
+        ]
+      },
+      {
+        "contact": "Gym Bro (Mike)",
+        "lastActive": "30 mins ago",
+        "avatar": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?w=100",
+        "history": [
+          { "sender": "Mike", "text": "Leg day today?", "time": "Yesterday" },
+          { "sender": "me", "text": "Nah busy", "time": "Yesterday" },
+          { "sender": "Mike", "text": "You've been skipping a lot lately bro. Everything good?", "time": "09:00" }
         ]
       },
       {
@@ -40,12 +83,45 @@
         ]
       },
       {
+        "contact": "Facebook",
+        "lastActive": "2 hours ago",
+        "avatar": "",
+        "history": [
+          { "sender": "Facebook", "text": "10293 is your Instagram reset code.", "time": "09:45" }
+        ]
+      },
+      {
+        "contact": "Verizon",
+        "lastActive": "3 hours ago",
+        "avatar": "",
+        "history": [
+          { "sender": "Verizon", "text": "Data usage alert: You have used 90% of your data plan.", "time": "Yesterday" }
+        ]
+      },
+      {
+        "contact": "Pharmacy",
+        "lastActive": "4 hours ago",
+        "avatar": "",
+        "history": [
+          { "sender": "CVS", "text": "Rx #29283 is ready for pickup.", "time": "Yesterday" }
+        ]
+      },
+      {
         "contact": "Unknown",
         "lastActive": "Yesterday",
         "avatar": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?w=100",
         "history": [
           { "sender": "Unknown", "text": "This is Det. Miller, SFPD. We have a warrant.", "time": "Yesterday" },
           { "sender": "Unknown", "text": "Turn yourself in before this gets worse.", "time": "Yesterday" }
+        ]
+      },
+      {
+        "contact": "Landlord",
+        "lastActive": "Yesterday",
+        "avatar": "",
+        "history": [
+          { "sender": "Landlord", "text": "Rent is overdue Alex.", "time": "Nov 14" },
+          { "sender": "Landlord", "text": "If I don't see the transfer by tomorrow I'm filing eviction.", "time": "Nov 15" }
         ]
       },
       {
@@ -56,12 +132,183 @@
           { "sender": "Brad", "text": "Yo SolanaGold is tanking hard", "time": "Yesterday" },
           { "sender": "Chad", "text": "Did Alex just rug us??", "time": "Yesterday" }
         ]
+      },
+      {
+        "contact": "AuthMsg",
+        "lastActive": "Yesterday",
+        "avatar": "",
+        "history": [
+          { "sender": "AuthMsg", "text": "Your Coinbase verification code is 884-221. Do not share this.", "time": "Nov 12" }
+        ]
+      },
+      {
+        "contact": "Tinder",
+        "lastActive": "2 days ago",
+        "avatar": "",
+        "history": [
+          { "sender": "Tinder", "text": "You have a new match! 💖", "time": "Nov 10" },
+          { "sender": "Tinder", "text": "Someone superliked you!", "time": "Nov 11" }
+        ]
+      },
+      {
+        "contact": "Airbnb",
+        "lastActive": "2 days ago",
+        "avatar": "",
+        "history": [
+          { "sender": "Airbnb", "text": "Review your stay with Host Michael.", "time": "Nov 10" }
+        ]
+      },
+      {
+        "contact": "Fantasy Football",
+        "lastActive": "3 days ago",
+        "avatar": "",
+        "history": [
+          { "sender": "Dave", "text": "Set your lineup!", "time": "Nov 09" },
+          { "sender": "Steve", "text": "Alex you are auto-drafting??", "time": "Nov 09" }
+        ]
+      },
+      {
+        "contact": "Dr. Aris (Dentist)",
+        "lastActive": "3 days ago",
+        "avatar": "",
+        "history": [
+          { "sender": "Dr. Aris", "text": "Reminder: Cleaning appt tomorrow at 2pm.", "time": "Nov 09" },
+          { "sender": "me", "text": "Cancel it.", "time": "Nov 09" }
+        ]
+      },
+      {
+        "contact": "Matt (Dev)",
+        "lastActive": "4 days ago",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100",
+        "history": [
+          { "sender": "Matt", "text": "The smart contract is deployed.", "time": "Nov 05" },
+          { "sender": "Matt", "text": "Are you sure about the liquidity lock duration?", "time": "Nov 05" },
+          { "sender": "me", "text": "Just do it.", "time": "Nov 05" }
+        ]
+      },
+      {
+        "contact": "Amazon",
+        "lastActive": "5 days ago",
+        "avatar": "",
+        "history": [
+          { "sender": "Amazon", "text": "Your package 'Ledger Nano X' has been delivered.", "time": "Nov 04" }
+        ]
+      },
+      {
+        "contact": "Google",
+        "lastActive": "6 days ago",
+        "avatar": "",
+        "history": [
+          { "sender": "Google", "text": "New sign-in on Mac OS X. Was this you?", "time": "Nov 03" }
+        ]
+      },
+      {
+        "contact": "Spam Risk",
+        "lastActive": "1 week ago",
+        "avatar": "",
+        "history": [
+          { "sender": "Spam Risk", "text": "We have been trying to reach you about your car's extended warranty.", "time": "Oct 30" }
+        ]
+      },
+      {
+        "contact": "Emma",
+        "lastActive": "1 week ago",
+        "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=100",
+        "history": [
+          { "sender": "Emma", "text": "Left my charger at your place.", "time": "Oct 28" },
+          { "sender": "me", "text": "I'll bring it to the meetup.", "time": "Oct 28" }
+        ]
+      },
+      {
+        "contact": "CoinBase Support",
+        "lastActive": "2 weeks ago",
+        "avatar": "",
+        "history": [
+          { "sender": "CoinBase", "text": "Ticket #4492: Your withdrawal limit has been increased.", "time": "Oct 20" }
+        ]
+      },
+      {
+        "contact": "Recruiter (Tech)",
+        "lastActive": "2 weeks ago",
+        "avatar": "",
+        "history": [
+          { "sender": "Recruiter", "text": "Hi Alex, saw your profile. Are you open to new roles?", "time": "Oct 15" }
+        ]
+      },
+      {
+        "contact": "Mom's Friend (Barb)",
+        "lastActive": "3 weeks ago",
+        "avatar": "",
+        "history": [
+          { "sender": "Barb", "text": "Happy Birthday Alex!! Hope you are eating well.", "time": "Sep 24" }
+        ]
+      },
+      {
+        "contact": "Sarah (High School)",
+        "lastActive": "3 months ago",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100",
+        "history": [
+          { "sender": "Sarah", "text": "OMG look what I found! Throwback Thursday!", "time": "Aug 12" },
+          { "sender": "Sarah", "text": "[Sent a Photo]", "time": "Aug 12" },
+          { "sender": "Sarah", "text": "We looked so young at Oak Creek lol. Hope you're good!", "time": "Aug 12" }
+        ]
+      },
+      {
+        "contact": "Discord Mod",
+        "lastActive": "3 months ago",
+        "avatar": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=100",
+        "history": [
+          { "sender": "Mod", "text": "Bro people are FUDing in the general channel.", "time": "Aug 10" },
+          { "sender": "me", "text": "Ban them.", "time": "Aug 10" }
+        ]
+      },
+      {
+        "contact": "Netflix",
+        "lastActive": "3 months ago",
+        "avatar": "",
+        "history": [
+          { "sender": "Netflix", "text": "We could not process your payment.", "time": "Aug 01" }
+        ]
+      },
+      {
+        "contact": "Wrong Number",
+        "lastActive": "4 months ago",
+        "avatar": "",
+        "history": [
+          { "sender": "Wrong Number", "text": "Is this Dave?", "time": "Jul 15" },
+          { "sender": "me", "text": "No.", "time": "Jul 15" }
+        ]
+      },
+       {
+        "contact": "Promo",
+        "lastActive": "4 months ago",
+        "avatar": "",
+        "history": [
+          { "sender": "Promo", "text": "USE CODE 'ALEX20' FOR 20% OFF YOUR NEXT ORDER.", "time": "Jul 10" }
+        ]
+      },
+      {
+        "contact": "Cousin Vinny",
+        "lastActive": "5 months ago",
+        "avatar": "",
+        "history": [
+          { "sender": "Vinny", "text": "Yo can I borrow $50?", "time": "Jun 01" },
+          { "sender": "me", "text": "No.", "time": "Jun 01" }
+        ]
+      },
+      {
+        "contact": "Twitter",
+        "lastActive": "6 months ago",
+        "avatar": "",
+        "history": [
+          { "sender": "Twitter", "text": "Your account has been verified.", "time": "May 20" }
+        ]
       }
     ],
     "notes": [
       { "title": "Sponsor List", "content": "1. EnergyDrinkCo ($5k)\n2. VPN_Secure ($2k)", "date": "Oct 20" },
       { "title": "Vows", "content": "Jules, you are my rock. Even when the market crashes, you're my stablecoin.", "date": "Oct 22" },
-      { "title": "Cant Forget", "content": "Ledger: [Physical Device]\nExchange: InfluencerLife!\nSecure Folder: [Anniversary]", "date": "Nov 15" }
+      { "title": "Cant Forget", "content": "Ledger: [Physical Device]\nExchange: InfluencerLife!\nSecure Folder: [Get Rich Day]", "date": "Nov 15" }
     ],
     "photos": [
       { "id": 1, "url": "/drive.jpg", "locked": false, "date": "Oct 10" },
@@ -75,7 +322,7 @@
       { "id": 9, "url": "/anniversary.jpg", "locked": false, "date": "Nov 12" },
       { "id": 10, "url": "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=500", "locked": false, "date": "Nov 14" },
       { "id": 11, "url": "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=500", "locked": false, "date": "Nov 15" },
-      { "id": 12, "url": "/evidence.jpg", "locked": true, "password": "7788", "date": "Nov 18" }
+      { "id": 12, "url": "/evidence.jpg", "locked": true, "password": "nov5", "date": "Nov 20" }
     ],
     "browser": [
       { "title": "SolanaGold Price Chart - DEXTools", "url": "dextools.io/app/sol/pair/GOLD" },
@@ -86,26 +333,246 @@
       { "title": "Delete Coinbase account permanently", "url": "coinbase.com/settings" },
       { "title": "Best disguise for men", "url": "wikihow.com" },
       { "title": "Real Estate in Costa Rica", "url": "remax-cr.com" },
+      { "title": "Real Estate in Montego Bay", "url": "remax-jamaica.com" },
+      { "title": "Blue Mountain Coffee beans bulk", "url": "amazon.com" },
+      { "title": "Usain Bolt's restaurant reviews", "url": "yelp.com" },
+      { "title": "Monero to cash no KYC", "url": "localmonero.co" },
+      { "title": "Flight A745 Status", "url": "fly-cheap.com/status" },
+      { "title": "Best jerk chicken near me", "url": "ubereats.com" },
+      { "title": "How to dye hair blonde men", "url": "wikihow.com" },
       { "title": "Private Jet Charter cost", "url": "flyprivate.com" },
       { "title": "Can police track WhatsApp?", "url": "privacy-stack.com" },
       { "title": "Top 10 Influencer Apology Videos", "url": "youtube.com" },
       { "title": "Luxury Villas Papagayo", "url": "airbnb.com" },
+      { "title": "Weather in Kingston", "url": "weather.com" },
       { "title": "How to fake your own death", "url": "quora.com" },
-      { "title": "Flight 404 Status", "url": "fly-cheap.com/status" },
-      { "title": "Is Panama safe?", "url": "travel.state.gov" }
+      { "title": "Luxury Villas Port Antonio", "url": "airbnb.com" },
+      { "title": "Flight G321 Status", "url": "fly-cheap.com/status" },
+      { "title": "Is Panama safe?", "url": "travel.state.gov" },
+      { "title": "AeroCharter - Private Jet Tracking", "url": "aerocharter.com/track" },
+      { "title": "Jason Bourne real name", "url": "imdb.com" },
+      { "title": "How to spot undercover cops", "url": "reddit.com/r/legaladvice" },
+      { "title": "Dunn's River Falls tour tickets", "url": "viator.com" },
+      { "title": "Symptoms of panic attack", "url": "webmd.com" },
+      { "title": "Does changing SIM card hide location?", "url": "techstack.com" },
+      { "title": "Used G-Wagon price 2022", "url": "autotrader.com" }
     ],
-    "mail": [
-      { "id": 1, "from": "Coinbase", "subject": "Withdrawal Successful", "body": "You have successfully withdrawn 450 SOL to external wallet...", "read": true, "date": "Today" },
-      { "id": 2, "from": "Landlord", "subject": "Past Due: November Rent", "body": "Alex, this is the 2nd notice. Please pay immediately.", "read": true, "date": "Yesterday" },
-      { "id": 3, "from": "FlyCheap Air", "subject": "Flight Confirmation: [REDACTED]", "body": "Booking Ref: #F404. Destination: Hidden for privacy. Please view full details in your Secure Folder.", "read": false, "date": "Nov 18" },
-      { "id": 4, "from": "Amazon", "subject": "Your order has shipped", "body": "1x 'Ledger Nano X' is on its way.", "read": true, "date": "Nov 10" },
-       { "id": 5, "from": "Newsletter", "subject": "Crypto Weekly", "body": "Bitcoin hits new ATH!", "read": true, "date": "Nov 08" }
+    "mail": {
+      "inbox": [
+        { "id": 101, "from": "Coinbase", "subject": "Withdrawal Successful", "body": "You have successfully withdrawn 450 SOL to external wallet...", "read": true, "date": "Today 08:30" },
+        { "id": 102, "from": "Landlord", "subject": "Past Due: November Rent", "body": "Alex, this is the 2nd notice. Please pay immediately.", "read": true, "date": "Yesterday" },
+        { "id": 103, "from": "SecureBank", "subject": "Wire Transfer Alert", "body": "A wire transfer of $15,000 was successfully processed on Nov 14. For recipient details, check your transaction history in the Bank App.", "read": false, "date": "Nov 14" },
+        { "id": 104, "from": "Amazon", "subject": "Your order has shipped", "body": "1x 'Ledger Nano X' is on its way.", "read": true, "date": "Nov 10" },
+        { "id": 105, "from": "Newsletter", "subject": "Crypto Weekly: BTC to 100k?", "body": "Bitcoin hits new ATH! Is it time to sell?", "read": true, "date": "Nov 08" },
+        { "id": 106, "from": "LinkedIn", "subject": "Who viewed your profile", "body": "3 people viewed your profile this week.", "read": true, "date": "Nov 07" },
+        { "id": 107, "from": "Spotify", "subject": "Your receipt", "body": "Premium Subscription: $14.99", "read": true, "date": "Nov 01" },
+        { "id": 108, "from": "Mom", "subject": "FWD: Cute Dog Video", "body": "Thought you would like this! Love, Mom.", "read": true, "date": "Oct 28" },
+        { "id": 109, "from": "Netflix", "subject": "Coming Soon", "body": "New season of Stranger Things.", "read": true, "date": "Oct 25" },
+        { "id": 110, "from": "Twitter", "subject": "Security Alert", "body": "New login from San Francisco, CA.", "read": true, "date": "Oct 20" },
+        { "id": 111, "from": "Uber Eats", "subject": "50% off your next order", "body": "Use code YUMMY50.", "read": true, "date": "Oct 18" },
+        { "id": 112, "from": "Zoom", "subject": "Meeting Invitation", "body": "Strategy Sync with Dev Team.", "read": true, "date": "Oct 15" },
+        { "id": 113, "from": "Apple", "subject": "Your receipt", "body": "iCloud Storage (50GB): $0.99", "read": true, "date": "Oct 01" },
+        { "id": 114, "from": "Medium Daily", "subject": "How to build a DAO", "body": "Top stories for you today.", "read": true, "date": "Sep 28" },
+        { "id": 115, "from": "Github", "subject": "[SolanaGold] Pull Request #44", "body": "Matt merged 'fix-liquidity-bug'.", "read": true, "date": "Sep 25" },
+        { "id": 116, "from": "DoNotReply", "subject": "2FA Code", "body": "Your code is 88291.", "read": true, "date": "Sep 20" },
+        { "id": 117, "from": "Hulu", "subject": "Payment Failed", "body": "Please update your card.", "read": true, "date": "Sep 15" },
+        { "id": 118, "from": "Gym", "subject": "Membership Renewal", "body": "Your annual fee is due.", "read": true, "date": "Sep 10" },
+        { "id": 119, "from": "Robinhood", "subject": "Your statement is ready", "body": "View your September statement.", "read": true, "date": "Sep 05" },
+        { "id": 120, "from": "DoorDash", "subject": "Your food is here", "body": "Picture attached.", "read": true, "date": "Aug 30" },
+        { "id": 121, "from": "Jules", "subject": "Dinner?", "body": "Are we still on for tonight?", "read": true, "date": "Aug 25" },
+        { "id": 122, "from": "Slack", "subject": "New message from Matt", "body": "Hey check the deploy logs.", "read": true, "date": "Aug 20" },
+        { "id": 123, "from": "Google", "subject": "Security Checkup", "body": "Is your account secure?", "read": true, "date": "Aug 15" },
+        { "id": 124, "from": "Meetup", "subject": "Events near you", "body": "SF Crypto Tuesday.", "read": true, "date": "Aug 10" },
+        { "id": 125, "from": "Product Hunt", "subject": "Daily Digest", "body": "Top products today.", "read": true, "date": "Aug 05" },
+        { "id": 126, "from": "Airbnb", "subject": "Review your trip", "body": "How was your stay in Tahoe?", "read": true, "date": "Aug 01" },
+        { "id": 127, "from": "Headspace", "subject": "Time to meditate", "body": "Take a breath Alex.", "read": true, "date": "Jul 25" },
+        { "id": 128, "from": "NYT Cooking", "subject": "Easy weeknight dinners", "body": "Pasta recipes you'll love.", "read": true, "date": "Jul 20" },
+        { "id": 129, "from": "Ticketmaster", "subject": "Your tickets", "body": "The Weeknd Concert - Section 102.", "read": true, "date": "Jul 15" },
+        { "id": 130, "from": "MetaMask", "subject": "Welcome", "body": "Thanks for installing MetaMask.", "read": true, "date": "Jul 01" }
+      ],
+      "sent": [
+        { "id": 201, "to": "Landlord", "subject": "Re: Rent", "body": "I'm moving funds now. Give me 24 hours.", "date": "Yesterday" },
+        { "id": 202, "to": "Matt (Dev)", "subject": "Launch", "body": "We need to launch before the audit is finished.", "date": "Nov 05" },
+        { "id": 203, "to": "Mom", "subject": "Re: Thanksgiving", "body": "I told you I'm busy mom.", "date": "Nov 01" },
+        { "id": 204, "to": "Support", "subject": "Refund??", "body": "My flight was cancelled, where is my money?", "date": "Oct 15" },
+        { "id": 205, "to": "Jules", "subject": "Sorry", "body": "I'll make it up to you.", "date": "Oct 10" },
+        { "id": 206, "to": "Recruiter", "subject": "Re: Role", "body": "Not interested right now. Thanks.", "date": "Oct 01" },
+        { "id": 207, "to": "Gym", "subject": "Cancel membership", "body": "I want to cancel immediately.", "date": "Sep 12" },
+        { "id": 208, "to": "Barb", "subject": "Re: Birthday", "body": "Thanks Barb!", "date": "Sep 25" },
+        { "id": 209, "to": "Boss", "subject": "Sick day", "body": "Not feeling well today.", "date": "Aug 20" },
+        { "id": 210, "to": "Pizza Hut", "subject": "Complaint", "body": "My pizza was cold.", "date": "Aug 05" }
+      ],
+      "drafts": [
+        { "id": 301, "to": "Jules", "subject": "The truth", "body": "I never meant to hurt you. I just wanted to give us a better life.", "date": "Nov 15" },
+        { "id": 302, "to": "Twitter", "subject": "Thread (1/5)", "body": "The rumors about SolanaGold are false. We are building...", "date": "Nov 13" },
+        { "id": 303, "to": "Mom", "subject": "(No Subject)", "body": "I might go away for a while.", "date": "Nov 10" },
+        { "id": 304, "to": "Landlord", "subject": "Moving out", "body": "Here are the keys.", "date": "Nov 01" },
+        { "id": 305, "to": "Unknown", "subject": "Offer", "body": "I can pay double if you get it done by Friday.", "date": "Oct 20" }
+      ],
+      "labels": {
+        "Receipts": [
+            { "id": 401, "from": "Uber", "subject": "Your trip", "body": "Total: $24.50", "date": "Nov 10" },
+            { "id": 402, "from": "Amazon", "subject": "Order #4421", "body": "Total: $120.00", "date": "Nov 04" },
+            { "id": 403, "from": "Starbucks", "subject": "Reload", "body": "Total: $25.00", "date": "Nov 01" }
+        ],
+        "Crypto": [
+            { "id": 404, "from": "Alerts", "subject": "ETH below $2k", "body": "Price alert triggered.", "date": "Oct 30" },
+            { "id": 405, "from": "Uniswap", "subject": "Swap Success", "body": "Swapped 10 SOL for USDC.", "date": "Oct 25" },
+            { "id": 406, "from": "Ledger", "subject": "Security News", "body": "Update your firmware.", "date": "Oct 10" }
+        ],
+        "Travel": [
+            { "id": 407, "from": "Expedia", "subject": "Trip to Vegas", "body": "Your itinerary for last March.", "date": "Mar 10" },
+            { "id": 408, "from": "Delta", "subject": "SkyMiles Balance", "body": "You have 12,000 miles.", "date": "Jan 01" },
+            { "id": 409, "from": "Airbnb", "subject": "Reservation Confirmed", "body": "Cabin in the woods.", "date": "Feb 14" }
+        ],
+        "Work": [
+             { "id": 410, "from": "Jira", "subject": "Ticket Assigned", "body": "You have 3 new tickets.", "date": "Sep 30" },
+             { "id": 411, "from": "Slack", "subject": "Mentioned in #general", "body": "Matt: @Alex where are you?", "date": "Sep 29" },
+             { "id": 412, "from": "HR", "subject": "Benefits Enrollment", "body": "Open enrollment starts soon.", "date": "Sep 15" }
+        ],
+        "Family": [
+             { "id": 413, "from": "Mom", "subject": "Dad's surgery", "body": "He is doing fine.", "date": "Aug 30" },
+             { "id": 414, "from": "Barb", "subject": "Cookie Recipe", "body": "Here is the recipe you asked for.", "date": "Aug 10" },
+             { "id": 415, "from": "Aunt May", "subject": "Re: Wedding", "body": "Are you bringing a plus one?", "date": "Jul 05" }
+        ]
+      },
+      "trash": [
+        { "id": 503, "to": "Jules", "subject": "(No Subject)", "body": "I can't stay. I booked the flight for tonight. Flight F404. I'll message you when I land. Don't tell the police.", "date": "Nov 14" },
+        { "id": 502, "from": "Spam", "subject": "Viagra", "body": "Cheap pills.", "date": "Nov 14" },
+        { "id": 501, "from": "LinkedIn", "subject": "Job Alert", "body": "Software Engineer at Google.", "date": "Nov 12" },
+        { "id": 504, "from": "Newsletter", "subject": "Unsubscribe", "body": "You have been unsubscribed.", "date": "Nov 10" }
+      ],
+      "spam": [
+        { "id": 601, "from": "Prince Ali", "subject": "Inheritance", "body": "Dear Sir, I have $10M for you.", "date": "Yesterday" },
+        { "id": 602, "from": "Pharmacy", "subject": "Pills 4 U", "body": "Discount code inside.", "date": "Nov 12" },
+        { "id": 603, "from": "Winner", "subject": "You won an iPhone!", "body": "Click here to claim.", "date": "Nov 10" },
+        { "id": 604, "from": "IRS", "subject": "Final Notice", "body": "You will be arrested.", "date": "Nov 01" },
+        { "id": 605, "from": "HotSingles", "subject": "Hi there", "body": "Someone wants to chat.", "date": "Oct 30" },
+        { "id": 606, "from": "Loan Shark", "subject": "Need cash?", "body": "Instant approval.", "date": "Oct 20" },
+        { "id": 607, "from": "Web Host", "subject": "Domain Expiring", "body": "Renew now.", "date": "Oct 15" },
+        { "id": 608, "from": "SEO Guru", "subject": "Rank #1", "body": "We can fix your website.", "date": "Oct 10" }
+      ]
+    },
+    "bank": [
+      { "id": 1, "merchant": "Starbucks", "type": "Debit", "amount": -5.75, "date": "Nov 18" },
+      { "id": 2, "merchant": "Uber", "type": "Debit", "amount": -12.50, "date": "Nov 17" },
+      { "id": 3, "merchant": "Netflix", "type": "Debit", "amount": -15.99, "date": "Nov 16" },
+      { "id": 4, "merchant": "Coinbase Withdrawal", "type": "Credit", "amount": 2500.00, "date": "Nov 15" },
+      { "id": 5, "merchant": "Starbucks", "type": "Debit", "amount": -6.25, "date": "Nov 15" },
+      { "id": 6, "merchant": "AeroCharter Inc", "type": "Debit", "amount": -15000.00, "date": "Nov 14" },
+      { "id": 7, "merchant": "Uber", "type": "Debit", "amount": -18.30, "date": "Nov 13" },
+      { "id": 8, "merchant": "Starbucks", "type": "Debit", "amount": -4.50, "date": "Nov 12" },
+      { "id": 9, "merchant": "Netflix", "type": "Debit", "amount": -15.99, "date": "Nov 11" },
+      { "id": 10, "merchant": "Uber", "type": "Debit", "amount": -22.45, "date": "Nov 10" },
+      { "id": 11, "merchant": "Coinbase Withdrawal", "type": "Credit", "amount": 1800.00, "date": "Nov 08" },
+      { "id": 12, "merchant": "Starbucks", "type": "Debit", "amount": -5.25, "date": "Nov 07" },
+      { "id": 13, "merchant": "Netflix", "type": "Debit", "amount": -15.99, "date": "Nov 05" },
+      { "id": 14, "merchant": "Uber", "type": "Debit", "amount": -15.80, "date": "Nov 04" },
+      { "id": 15, "merchant": "Starbucks", "type": "Debit", "amount": -7.00, "date": "Nov 03" },
+      { "id": 16, "merchant": "Coinbase Withdrawal", "type": "Credit", "amount": 3200.00, "date": "Nov 01" },
+      { "id": 17, "merchant": "Netflix", "type": "Debit", "amount": -15.99, "date": "Oct 30" },
+      { "id": 18, "merchant": "Uber", "type": "Debit", "amount": -19.50, "date": "Oct 28" },
+      { "id": 19, "merchant": "Starbucks", "type": "Debit", "amount": -5.75, "date": "Oct 27" },
+      { "id": 20, "merchant": "Island Legal Group (Escrow)", "amount": -25000.00, "date": "Nov 15", "type": "debit" },
+      { "id": 21, "merchant": "Kingston Realty - Deposit", "amount": -5000.00, "date": "Nov 12", "type": "debit" },
+      { "id": 22, "merchant": "Delta Airlines", "amount": 450.00, "date": "Nov 10", "type": "credit" },
+      { "id": 23, "merchant": "OnlyFans", "amount": -25.00, "date": "Nov 08", "type": "debit" },
+      { "id": 24, "merchant": "Apple Store", "amount": -1200.00, "date": "Nov 05", "type": "debit" },
+      { "id": 25, "merchant": "Tinder Gold", "amount": -29.99, "date": "Nov 01", "type": "debit" },
+      { "id": 26, "merchant": "Whole Foods", "amount": -142.50, "date": "Oct 30", "type": "debit" },
+      { "id": 27, "merchant": "ATM Withdrawal", "amount": -400.00, "date": "Oct 28", "type": "debit" }
     ],
     "calendar": [
-      { "date": "2024-11-12", "title": "Anniversary w/ Jules ❤️", "type": "personal" },
-      { "date": "2024-11-15", "title": "SolanaGold Launch 🚀", "type": "work" },
       { "date": "2024-11-20", "title": "Sell everything", "type": "urgent" },
-      { "date": "2024-10-24", "title": "Rex Vet Appt", "type": "personal" }
-    ]
+      { "date": "2024-11-15", "title": "Eviction Notice Deadline", "type": "urgent" },
+      { "date": "2024-11-14", "title": "The Departure ✈️", "type": "urgent" },
+      { "date": "2024-11-13", "title": "Dentist Appt", "type": "personal" },
+      { "date": "2024-11-12", "title": "Anniversary w/ Jules ❤️", "type": "personal" },
+      { "date": "2024-11-10", "title": "Move funds to Ledger", "type": "work" },
+      { "date": "2024-11-05", "title": "SolanaGold Launch 🚀", "type": "work" },
+      { "date": "2024-10-31", "title": "Halloween Party @ HypeHouse", "type": "personal" },
+      { "date": "2024-10-24", "title": "Rex Vet Appt", "type": "personal" },
+      { "date": "2024-10-15", "title": "Meeting with Matt", "type": "work" }
+    ],
+    "genericApps": {
+      "news": {
+        "title": "Global News",
+        "items": [
+          { "title": "SolanaGold Crashes 99% in Minutes", "subtitle": "Market Watch • 2h ago" },
+          { "title": "Influencer Alex Miller Missing?", "subtitle": "SF Chronicle • 4h ago" },
+          { "title": "SEC Announces New Crypto Crackdown", "subtitle": "TechDaily • 6h ago" },
+          { "title": "10 Non-Extradition Countries You Can Move To", "subtitle": "TravelLife • Yesterday" },
+          { "title": "Warriors Win in Overtime", "subtitle": "Sports Central • Yesterday" },
+          { "title": "Top 5 Luxury Watches for Men", "subtitle": "Style Weekly • 2 days ago" },
+          { "title": "Local Weather: Rain expected all week", "subtitle": "Weather Channel • 2 days ago" },
+          { "title": "Tech Layoffs Hit 50k This Month", "subtitle": "Business Insider • 3 days ago" }
+        ]
+      },
+      "rides": {
+        "title": "RideGo",
+        "items": [
+          { "title": "SFO International Airport", "subtitle": "Nov 14 • $45.20" },
+          { "title": "Hype House HQ", "subtitle": "Nov 13 • $12.50" },
+          { "title": "Chase Bank (Downtown)", "subtitle": "Nov 12 • $18.00" },
+          { "title": "The Ritz-Carlton", "subtitle": "Nov 10 • $22.40" },
+          { "title": "Oak Creek Elementary", "subtitle": "Nov 08 • $35.00" },
+          { "title": "1015 Folsom Club", "subtitle": "Nov 05 • $15.00" },
+          { "title": "Whole Foods Market", "subtitle": "Nov 01 • $8.50" },
+          { "title": "Golden Gate Park", "subtitle": "Oct 30 • $14.20" }
+        ]
+      },
+      "food": {
+        "title": "QuickEats",
+        "items": [
+          { "title": "Joe's Pizza - 2x Large Pepperoni", "subtitle": "Delivered • Nov 13 • $42.00" },
+          { "title": "Sushi Ran - Omakase Set", "subtitle": "Delivered • Nov 10 • $120.00" },
+          { "title": "Starbucks - Iced Americano", "subtitle": "Delivered • Nov 08 • $15.50" },
+          { "title": "Taco Bell - Party Pack", "subtitle": "Delivered • Nov 05 • $32.00" },
+          { "title": "Sweetgreen - Kale Caesar", "subtitle": "Delivered • Nov 01 • $18.00" },
+          { "title": "Burger King - Whopper Meal", "subtitle": "Delivered • Oct 28 • $12.50" },
+          { "title": "Liquor Barn - Grey Goose", "subtitle": "Delivered • Oct 25 • $55.00" },
+          { "title": "McDonalds - Late Night", "subtitle": "Delivered • Oct 20 • $14.00" }
+        ]
+      },
+      "sports": {
+        "title": "ScoreLine",
+        "items": [
+          { "title": "GSW vs LAL", "subtitle": "Final: 121 - 110" },
+          { "title": "49ers vs Seahawks", "subtitle": "Final: 28 - 14" },
+          { "title": "Manchester Utd vs Chelsea", "subtitle": "Final: 1 - 1" },
+          { "title": "Verstappen Wins GP", "subtitle": "F1 News" },
+          { "title": "Djokovic Advances", "subtitle": "Tennis Open" },
+          { "title": "NFL: Week 10 Highlights", "subtitle": "Video • 4m" },
+          { "title": "NBA Trade Rumors", "subtitle": "Espn" },
+          { "title": "UFC Fight Night Results", "subtitle": "MMA World" }
+        ]
+      },
+      "ai": {
+        "title": "SmartBot AI",
+        "items": [
+          { "title": "Write an apology tweet for losing money", "subtitle": "Sure! Here is a draft..." },
+          { "title": "How to clear browser history permanently", "subtitle": "To clear history..." },
+          { "title": "Can you use Monero on Amazon?", "subtitle": "No, Amazon does not accept..." },
+          { "title": "Spanish phrases for beginners", "subtitle": "Hola, Como estas..." },
+          { "title": "Best way to travel unnoticed", "subtitle": "Wear a hat and mask..." },
+          { "title": "Write a resignation letter", "subtitle": "Dear Board of Directors..." },
+          { "title": "How does extradition work?", "subtitle": "Extradition is the process..." },
+          { "title": "Jokes about crypto", "subtitle": "Why did the Bitcoin cross the road?" }
+        ]
+      },
+      "music": {
+        "title": "Streamify",
+        "items": [
+          { "title": "Grindset Motivation", "subtitle": "Playlist • 2h 30m" },
+          { "title": "Sad Boi Hours", "subtitle": "Playlist • 4h 15m" },
+          { "title": "Top 50 Global", "subtitle": "Chart" },
+          { "title": "Podcast: The Crypto King", "subtitle": "Episode 44" },
+          { "title": "Workout Mix", "subtitle": "Playlist" },
+          { "title": "Sleep Sounds (Rain)", "subtitle": "Album" },
+          { "title": "Drake - Scorpion", "subtitle": "Album" },
+          { "title": "Hans Zimmer - Inception", "subtitle": "Album" }
+        ]
+      }
+    }
   }
 }

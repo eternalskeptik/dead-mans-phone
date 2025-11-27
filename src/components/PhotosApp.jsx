@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 import { Lock, X } from 'lucide-react';
 import { useGame } from '../context/GameContext';
 
@@ -10,6 +10,7 @@ const PhotosApp = () => {
   const [passwordPhoto, setPasswordPhoto] = useState(null);
   const [passwordInput, setPasswordInput] = useState('');
   const [passwordError, setPasswordError] = useState('');
+  const passwordInputRef = useRef(null);
 
   const isUnlocked = (photo) =>
     !photo.locked || unlockedPhotos.has(photo.id);
@@ -90,8 +91,8 @@ const PhotosApp = () => {
 
       {/* Photo Viewer Modal */}
       {selectedPhoto && (
-        <div className="absolute inset-0 z-20 bg-black/90 flex flex-col">
-          <div className="flex justify-end p-4">
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/95 transition-opacity duration-200">
+          <div className="absolute top-0 right-0 p-4 z-10">
             <button
               onClick={closeSelectedPhoto}
               className="p-2 rounded-full bg-white/10 hover:bg-white/20 transition-colors text-white"
@@ -99,7 +100,7 @@ const PhotosApp = () => {
               <X className="w-5 h-5" />
             </button>
           </div>
-          <div className="flex-1 flex flex-col items-center justify-center gap-4 px-6 pb-10">
+          <div className="flex flex-col items-center justify-center gap-4 px-6 pb-10 max-h-full overflow-auto">
             <img
               src={selectedPhoto.url}
               alt={selectedPhoto.caption}
@@ -121,10 +122,10 @@ const PhotosApp = () => {
 
       {/* Password Modal */}
       {passwordPhoto && (
-        <div className="absolute inset-0 z-30 bg-black/80 flex items-center justify-center px-6">
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/95 px-6 transition-opacity duration-200">
           <form
             onSubmit={handlePasswordSubmit}
-            className="w-full bg-white/5 border border-white/20 rounded-3xl p-6 space-y-4"
+            className="w-full max-w-md bg-white/5 border border-white/20 rounded-3xl p-6 space-y-4"
           >
             <div className="flex justify-between items-center">
               <h3 className="text-white font-semibold text-lg">
@@ -141,13 +142,41 @@ const PhotosApp = () => {
             <p className="text-sm text-white/70">
               Enter the password hint from your notes to open this photo.
             </p>
-            <input
-              type="text"
-              value={passwordInput}
-              onChange={(e) => setPasswordInput(e.target.value)}
-              className="w-full bg-black/50 border border-white/20 rounded-2xl px-4 py-3 text-white focus:outline-none focus:ring-2 focus:ring-blue-400"
-              placeholder="Enter password"
-            />
+            {/* PIN Code Interface */}
+            <div className="relative">
+              {/* Hidden input for actual typing */}
+              <input
+                ref={passwordInputRef}
+                type="text"
+                value={passwordInput}
+                onChange={(e) => setPasswordInput(e.target.value)}
+                className="absolute inset-0 opacity-0 cursor-text"
+                autoFocus
+                maxLength={passwordPhoto.password?.length || 10}
+              />
+              {/* Visual PIN boxes */}
+              <div
+                className="flex gap-3 justify-center cursor-text"
+                onClick={() => {
+                  // Focus the hidden input when clicking on the boxes
+                  passwordInputRef.current?.focus();
+                }}
+              >
+                {Array.from({ length: passwordPhoto.password?.length || 4 }).map(
+                  (_, index) => {
+                    const char = passwordInput[index] || '';
+                    return (
+                      <div
+                        key={index}
+                        className="w-12 h-12 bg-gray-800 border border-white/20 rounded-lg flex items-center justify-center text-white text-xl font-semibold"
+                      >
+                        {char || '-'}
+                      </div>
+                    );
+                  }
+                )}
+              </div>
+            </div>
             {passwordError && (
               <p className="text-xs text-red-400">{passwordError}</p>
             )}

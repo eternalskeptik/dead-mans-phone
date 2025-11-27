@@ -10,6 +10,8 @@ import ReportApp from './components/ReportApp';
 import BrowserApp from './components/BrowserApp';
 import MailApp from './components/MailApp';
 import CalendarApp from './components/CalendarApp';
+import BankApp from './components/BankApp';
+import GenericListApp from './components/GenericListApp';
 
 const AppContent = () => {
   const { isUnlocked, currentApp } = useGame();
@@ -54,6 +56,12 @@ const AppContent = () => {
             <CalendarApp />
           </AppLayout>
         );
+      case 'bank':
+        return (
+          <AppLayout title="Bank">
+            <BankApp />
+          </AppLayout>
+        );
       case 'browser':
         return (
           <AppLayout title="Browser">
@@ -64,6 +72,48 @@ const AppContent = () => {
         return (
           <AppLayout title="Report">
             <ReportApp />
+          </AppLayout>
+        );
+      case 'news':
+        return (
+          <AppLayout title="News">
+            <GenericListApp type="news" />
+          </AppLayout>
+        );
+      case 'rides':
+        return (
+          <AppLayout title="Rides">
+            <GenericListApp type="rides" />
+          </AppLayout>
+        );
+      case 'food':
+        return (
+          <AppLayout title="Food">
+            <GenericListApp type="food" />
+          </AppLayout>
+        );
+      case 'sports':
+        return (
+          <AppLayout title="Sports">
+            <GenericListApp type="sports" />
+          </AppLayout>
+        );
+      case 'ai':
+        return (
+          <AppLayout title="AI">
+            <GenericListApp type="ai" />
+          </AppLayout>
+        );
+      case 'music':
+        return (
+          <AppLayout title="Music">
+            <GenericListApp type="music" />
+          </AppLayout>
+        );
+      case 'settings':
+        return (
+          <AppLayout title="Settings">
+            <GenericListApp type="settings" />
           </AppLayout>
         );
       default:

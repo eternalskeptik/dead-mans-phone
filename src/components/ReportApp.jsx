@@ -11,9 +11,9 @@ const ReportApp = () => {
     event.preventDefault();
     const normalized = location.trim().toLowerCase();
     const isCorrect =
-      normalized.includes('costa rica') ||
-      normalized.includes('san jose') ||
-      normalized.includes('juan santamaria');
+      normalized === 'jamaica' ||
+      normalized === 'kingston' ||
+      normalized === 'kingston, jamaica';
 
     if (isCorrect) {
       setStatus('success');
