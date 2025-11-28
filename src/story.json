@@ -244,13 +244,13 @@
         ]
       },
       {
-        "contact": "Sarah (High School)",
+        "contact": "Sarah",
         "lastActive": "3 months ago",
         "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100",
         "history": [
-          { "sender": "Sarah", "text": "OMG look what I found! Throwback Thursday!", "time": "Aug 12" },
+          { "sender": "Sarah", "text": "OMG look what I found! Throwback Thursday! Oak Creek Elementary!", "time": "Aug 12" },
           { "sender": "Sarah", "text": "[Sent a Photo]", "time": "Aug 12" },
-          { "sender": "Sarah", "text": "We looked so young at Oak Creek lol. Hope you're good!", "time": "Aug 12" }
+          { "sender": "Sarah", "text": "We looked so young, lol. Hope you're good!", "time": "Aug 12" }
         ]
       },
       {
